@@ -2,9 +2,8 @@
 
 # hoorf wlog
 
-> write log
+> 记录一些JAVA开发技巧
 
 
 
 [GitHub](https://github.com/hoorf/hoorf.github.io)
-[Get Started](#quick-start)

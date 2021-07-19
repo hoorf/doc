@@ -1,3 +1,3 @@
-# Headline
+# java tips
 
-> An awesome project.
+> 简单记录下开发技巧
