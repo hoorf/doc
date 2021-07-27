@@ -138,6 +138,15 @@ public class AdaptiveFeignCondition extends SpringBootCondition {
 }
 ```
 
+注意版本使用0.9.12存在bug,0.9.11正常使用
+```xml
+<dependency>
+    <groupId>org.reflections</groupId>
+    <artifactId>reflections</artifactId>
+    <version>0.9.11</version>
+</dependency>
+```
+
 ## 效果
 
 在 `account`模块中使用
