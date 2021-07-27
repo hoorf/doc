@@ -5,3 +5,5 @@
 - Spring Boot
   - [springboot使用](springboot使用)
   - [feign使用扩展](feign使用扩展)
+  - [spring回调机制-aware接口](spring回调机制-aware接口)
+  - [spring魔改Bean的创建](spring魔改Bean的创建)
