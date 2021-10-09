@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+user -> DispatchServlet: http请求
+activate DispatchServlet
+
+DispatchServlet -> HandlerMapping: 请求查询handler
+activate HandlerMapping
+HandlerMapping --> DispatchServlet: 根据url返回相应的handler集合
+deactivate HandlerMapping
+
+
+DispatchServlet -> HandlerAdapter: 请求执行对应的handler
+activate HandlerAdapter
+HandlerAdapter -> controller: 执行handler找到对应的controller
+activate controller
+controller --> HandlerAdapter: 返回执行结果ModelAndView
+deactivate controller
+HandlerAdapter --> DispatchServlet: 返回ModelAndView
+deactivate HandlerAdapter
+
+DispatchServlet -> ViewResolver: 请求视图解析器处理
+ViewResolver -> DispatchServlet: 返回view
+
+DispatchServlet  --> user: 返回响应数据
+
+deactivate DispatchServlet
+
+@enduml
