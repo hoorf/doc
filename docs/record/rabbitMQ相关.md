@@ -69,6 +69,7 @@ public class NormalWorkQueueMode {
 + 广播模式(Fanout)
 
 ```java
+
 package mq.rabbitmq;
 
 import com.rabbitmq.client.*;
@@ -122,7 +123,8 @@ public class FanoutMode {
 ```
 
 
-```
+
+```java
 1、publish/subscribe与work queues有什么区别。
 
 区别：
