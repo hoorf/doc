@@ -70,12 +70,6 @@ public class NormalWorkQueueMode {
 
 ```java
 
-package mq.rabbitmq;
-
-import com.rabbitmq.client.*;
-
-import java.io.IOException;
-
 public class FanoutMode {
 
     private static String EXCHANGE_NAME = "normal_exchange";
