@@ -67,6 +67,7 @@ public class NormalWorkQueueMode {
 例子：注册->发邮件、发短信
 
 + 广播模式(Fanout)
+
 ```java
 package mq.rabbitmq;
 
@@ -149,6 +150,7 @@ public class FanoutMode {
 P：生产者，向Exchange发送消息，发送消息时，会指定一个routing key。
 
 X：Exchange（交换机），接收生产者的消息，然后把消息递交给 与routing key完全匹配的队列
+
 
 ```java
 public class RoutingMode {
