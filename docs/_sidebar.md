@@ -8,3 +8,5 @@
   - [feign使用扩展](tips/feign使用扩展)
   - [spring回调机制-aware接口](tips/spring回调机制-aware接口)
   - [spring魔改Bean的创建](tips/spring魔改Bean的创建)
+- 其他
+  - [rabbitMQ模式](record/rabbitMQ相关)
